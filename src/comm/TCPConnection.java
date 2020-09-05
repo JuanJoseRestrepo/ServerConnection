@@ -24,7 +24,6 @@ public class TCPConnection extends Thread {
 	private ServerSocket server;
 	private Socket socket;
 	private int puerto;
-	private String saveMessage;
 	
 	@Override
 	public void run() {
